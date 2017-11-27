@@ -1,0 +1,277 @@
+/*   DIV  */
+.headdiv {
+height: 500px;
+width: 100%;
+}
+
+.bottomdiv {
+  background-color: black;
+  height: 400px;
+  margin-top: 130px;
+  color: white;
+  text-align: justify;
+}
+
+.wweimg {
+  margin-top: 22px;
+  margin-left: 50px;
+  border-radius: 50%;
+}
+.acorigins {
+margin-top: 0px;
+  margin-left: 50px;
+ float: : right;
+ display: inline-block;
+}
+
+.mcimg {
+  float: center;
+  border-radius: 50%;
+  border-style: solid;
+  border-color:white;
+  margin-left: 50px;
+}
+.gamesheading {
+  font-family: Arial;
+  text-align: center;
+  font-size: 36px;
+}
+
+/* DIV CLOSED*/
+
+
+/* NAV BAR*/
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0;
+  background-color: black;
+  border: 100px 100px 100px 100px;
+  border-color: black;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 12px;
+  color: white;
+  -webkit-transition: 1s;
+  transition: 1s;
+
+}
+
+li a:hover {
+  background-color: #f44242;
+  color:white;
+}
+.li1 {
+  float: left;
+  font-family: Comic Sans MS;
+  font-size: 20px;
+}
+.li2 {
+  float: right;
+  font-family: Comic Sans MS;
+  font-size: 20px;
+}
+/* NAV BAR CLOSED*/
+
+
+.h4head {
+  font-size: 26px;
+  color: white;
+  position: absolute;
+  font-style: normal;
+  font-family: Adventure;
+  margin-top: 30px;
+}
+
+/* SEARCH OPTION */
+.input1 {
+  width: 75px;
+  height: 25px;
+  background-color:white;
+  border-radius: 5px;
+  -webkit-transition: 3s;
+  transition: 3s;
+  outline: :none;
+  cursor: pointer;
+  margin-top: 6px;
+  float: right;
+  border-style: solid;
+  border:5px 5px 5px 5px;
+  border-color: black;
+
+}
+.input1:hover {
+  width: 500px;
+  outline: none;
+  cursor: pointer;
+  border-style: solid;
+  border:5px 5px 5px 5px;
+  border-color: black;
+}
+.input1:focus {
+  width: 500px;
+  outline: none;
+  border:5px 5px 5px 5px;
+  border-style: solid;
+  border-color: black;
+  cursor:text;
+}
+#icon1 {
+  color: white;
+  float: right;
+  margin-top: 9px;
+}
+/*SEARCH OPTION CLOSED*/
+
+.hrtop {
+  background: black;
+  margin-top:60px;
+}
+
+.hrbottom {
+  background: black;
+  margin-top: 22px;
+}
+.gamess {
+  text-align: center;
+  color:black;
+  font-family: Forte;
+  font-size: 35px;
+
+}
+
+
+/* FOOTER */
+.footer1 {
+  text-align: center;
+}
+.horizontalline {
+  margin-top:140px;
+}
+
+.endp {
+  color: gray;
+  font-family:Arial;
+  font-size: 10px;
+}
+
+.fa-youtube{
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 50%;
+}
+.fa-youtube:hover {
+  background:#bb0000;
+}
+.fa-twitter {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 50%;
+
+}
+.fa-twitter:hover {
+  background:#55ACEE;
+}
+
+.containerofemail {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  background: white;
+  width: 250px;
+  height:300px;
+  border-style: solid;
+  border: 5px 5px 5px 5px;
+  border-color: black;
+  border-radius: 3px;
+  text-align: center;
+  font-family: Lucida Sans;
+  font-size: 15px;
+}
+
+.h5mail {
+  position: relative;
+  margin: 0px;
+  font-family: Lucida Sans;
+  font-size: 15px;
+  height: 59px;
+  background-color: black;
+  color: white;
+
+}
+
+
+.sendbutton {
+  width:50px;
+  height: 30px;
+  background-color: white;
+  outline: none;
+  border-style: solid;
+  border: 2px 2px 2px 2px;
+  border-color:black;
+  border-radius: 2px;
+  font-family: Lucida Sans;
+  -webkit-transition:1s;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.sendbutton:hover {
+  background: #4bf707;
+  color: white;
+  cursor: pointer;
+}
+
+.resetbutton {
+  width:50px;
+  height: 30px;
+  background-color: white;
+  outline: none;
+  border-style: solid;
+  border: 2px 2px 2px 2px;
+  border-color:black;
+  border-radius: 2px;
+  font-family: Lucida Sans;
+  -webkit-transition:1s;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.resetbutton:hover {
+  background: #28bbff;
+  color: black;
+  cursor: pointer;
+}
+
+.sendbutton:active {
+  cursor: progress;
+}
+.resetbutton:active {
+  cursor: progress;
+}
+.abouttext {
+  font-size: 13px;
+  font-family: Arial;
+}
+/* FOOTER CLOSED*/
